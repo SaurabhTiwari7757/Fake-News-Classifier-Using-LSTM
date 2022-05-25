@@ -33,3 +33,4 @@ then added the Dense layer since it is a classification problem where I've used 
 then Compiled the model with the Adam optimizer, binary cross entropy loss function.
 
 After that, splitted into train/test with test size as 0.33 . Then fitted the model passing epoch and batch size value. 
+For further hyper parameter tuning, I've tried adding drop out layer after embedding layer and LSTM layer.
